@@ -1,0 +1,51 @@
+/*global*/
+
+
+/*utilities*/
+
+/*header*/
+
+header.site-header{ 
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    background-image: url(https://www.akc.org/wp-content/uploads/2017/11/Shih-Tzu-On-White-01.jpg);
+    background-position: bottom bottom;
+    background-size: cover ;
+    
+}
+
+
+/*register form*/
+
+.form-container div{
+    margin-bottom: 1rem;
+}
+
+#pets{
+    display:flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pet{
+    border: 1px solid black;
+    background-color: steelblue;
+    display: grid;
+    
+}
+.pet-label{
+    display: block;
+}
+
+.pet .pet-header{
+    display: flex;
+    justify-content: space-between;
+}
+.pet .pet-header button{
+    font-size: 14px;
+    border: none;
+}
+.highlight{
+    border-color: red;
+}
